@@ -19,11 +19,11 @@ var shots = [];
 
 
 window.addEventListener( 'keydown', function( event ){
-	keyState[ event.keyCode || e.which ] = true;
+	keyState[ event.keyCode || event.which ] = true;
 }, true);
 
 window.addEventListener( 'keyup', function( event ){
-	keyState[ event.keyCode || e.which ] = false;
+	keyState[ event.keyCode || event.which ] = false;
 }, true);
 
 
